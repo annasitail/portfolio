@@ -83,6 +83,12 @@ h1 {
     margin-right: 4%;
 }
 
+.header-l-image {
+    width: 75%;
+    max-width: 350px;
+    border: 3px dashed var(--main-border-color);
+}
+
 .header-l-text {
     font-size: 40px;
     margin: 60px 5px;
@@ -109,9 +115,13 @@ hr {
     padding: 0;
 }
 
+.about-image-2 {
+    margin: 5% 0;
+}
+
 .about-text {
     font-size: 30px;
-    margin: 30% 2%;
+    margin: 25% 2%;
     text-align: center;
 }
 
@@ -338,5 +348,11 @@ hr {
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1288px) and (min-width: 970px) {
+    .header-l-text {
+        margin-top: 30px;
     }
 }
