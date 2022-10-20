@@ -11,6 +11,7 @@
     width: 80%;
     max-width: 900px;
     height: 100%;
+    margin-bottom: 70px;
 }
 
 .title {
@@ -61,17 +62,49 @@
     text-align: left;
 }
 
+.footer {
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-text {
+    color: white;
+    margin: 0px;
+    font-family: var(--secondary-font-family);
+    font-size: 20px;
+}
+
+.footer a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.footer a:hover {
+    color: var(--seconday-text-color);
+}
+
 @media (max-width: 768px) {
+
+    .body {
+        width: 90%;
+    }
 
     .content {
         padding-bottom: 20px;
         width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
     }
 
     .contact {
         margin: 0 auto;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .contact-content {
@@ -90,5 +123,12 @@
 
     .link {
         margin: 0 auto;
+    }
+}
+
+@media (max-height: 780px) {
+    
+    .footer {
+        position: relative;
     }
 }

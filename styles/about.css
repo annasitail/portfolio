@@ -64,10 +64,12 @@ ul {
     border-bottom: 3px solid var(--main-border-color);
 }
 
-/* .footer {
+.footer {
     width: 100%;
     background-color: black;
     padding: 15px;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-text {
@@ -75,4 +77,22 @@ ul {
     margin: 0px;
     font-family: var(--secondary-font-family);
     font-size: 20px;
-} */
+}
+
+.footer a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.footer a:hover {
+    color: var(--seconday-text-color);
+}
+
+@media (max-height: 1250px) {
+    
+    .footer {
+        position: relative;
+    }
+}
