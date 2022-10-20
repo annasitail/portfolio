@@ -55,6 +55,8 @@
 
 .contact {
     color: var(--seconday-text-color);
+    font-size: 20px;
+    line-height: 35px;
 }
 
 .link-to-contact {
